@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="angeloportfolio.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <!-- Hero Section -->
+  <section class="hero bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to My Portfolio</h1>
+      <p class="lead">I'm a passionate developer who loves building amazing things.</p>
+      <a href="#about" class="btn btn-light btn-lg">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="angelpick.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <p>Hello! I am Al Angelo, a graduate of Information Technology, and I am deeply passionate about technology, constantly exploring new trends and innovations. With a solid foundation in various programming languages such as PHP, Python, C++, C#, JavaScript, HTML, CSS, and Bootstrap, as well as hands-on experience with MySQL databases, I have developed a versatile skill set that enables me to tackle a wide range of projects. I take great pride in my ability to create responsive, user-friendly websites that are not only visually appealing but also optimized for performance and ease of use, ensuring an exceptional experience for every user.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Experience</h2>
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <div class="card h-100">
+            <img src="Oracle-Symbol.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Technical Support</h5>
+              <p class="card-text">managing
+                the full project lifecycle from system setup to user
+                training.</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <h4>HTML</h4>
+          <div class="progress">
+            <div class="progress-bar" style="width: 90%;">90%</div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <h4>CSS</h4>
+          <div class="progress">
+            <div class="progress-bar" style="width: 85%;">85%</div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <h4>JavaScript</h4>
+          <div class="progress">
+            <div class="progress-bar" style="width: 80%;">80%</div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center">
+          <h4>Bootstrap</h4>
+          <div class="progress">
+            <div class="progress-bar" style="width: 95%;">95%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3">
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
